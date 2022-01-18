@@ -9,6 +9,4 @@ RUN pip3 install -r requirements.txt
 
 #RUN python -m nltk.downloader -d nltk_data/ all
 
-#CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0:5000"]
-
-CMD echo hi
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0:5000"]
