@@ -4,3 +4,4 @@ test_files/
 sandbox.py
 *.json
 data.*
+__pycache__/
