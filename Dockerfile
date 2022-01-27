@@ -12,7 +12,7 @@ RUN python -m spacy download en_core_web_sm
 
 RUN python -m nltk.downloader -d nltk_data/ all
 
-#PORT 5000
+PORT=5000
 EXPOSE $PORT
 ENTRYPOINT [ "python" ]
 CMD [ "app.py" ]
